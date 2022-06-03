@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "supportFile": "./cypress/support/index.js",
+  "pluginsFile": "./cypress/plugins/index.js",
+  "retries": 0,
+  "testFiles": "**/*.feature"
+}
