@@ -1,9 +1,6 @@
 import { Then } from "cypress-cucumber-preprocessor/steps";
 import { pages } from "../helpers";
 
-console.error('MUUUUUHHHH')
-
-
 Then(/^the "([^"]*)" page is visible$/, function (page) {
   cy.url().should("include", pages[page]);
 });
